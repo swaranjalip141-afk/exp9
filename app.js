@@ -25,7 +25,7 @@ app.get('/health', (req, res) => {
 
 app.get('/api/info', (req, res) => {
   res.json({
-    name: 'Your Name',
+    name: 'ABC',
     workshopDate: 'Your Workshop Date'
   });
 });
